@@ -13,7 +13,7 @@ const SignUp = () => {
             <form>
               <h1>Sign In</h1>
               <div className="form_data">
-                <label htmlFor="email">Emails</label>
+                <label htmlFor="email">Name</label>
                 <input type="text" name="email" id="email" />
               </div>
               <div className="form_data">
