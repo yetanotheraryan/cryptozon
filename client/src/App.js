@@ -12,11 +12,11 @@ function App() {
       <Navbar />
       <Newnav />
       <Routes>
-        {/* <Route path='/' element={<Navbar />} /> */}
+        <Route path='/' element={<Maincomp />} />
         <Route path='/login' element={<Sign_in />} />
-        <Route path='/' element={<SignUp />} />
+        <Route path='/signup' element={<SignUp />} />
       </Routes>
-      <Maincomp />
+      {/* <Maincomp /> */}
     </>
   );
 }

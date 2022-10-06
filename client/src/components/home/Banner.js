@@ -11,7 +11,8 @@ const data = [
 
 const Banner = () => {
   return (
-    <Carousel
+    <div className="space">
+      <Carousel
       className="carasousel"
       autoPlay={true}
       animation="slide"
@@ -36,6 +37,8 @@ const Banner = () => {
         );
       })}
     </Carousel>
+    </div>
+    
   );
 };
 
