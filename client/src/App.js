@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Maincomp />} />
         <Route path="/login" element={<Sign_in />} />
         <Route path="/signup" element={<SignUp />} />
+        {/*<Route path="/getproductsone/:id" element={<Cart />} /> */}
       </Routes>
       {/* <Maincomp /> */}
       <Footer />
