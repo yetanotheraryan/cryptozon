@@ -4,7 +4,7 @@ import Newnav from './components/newnavbaar/Newnav';
 import Sign_in from './components/signup_sign/Sign_in'
 import SignUp from './components/signup_sign/SignUp'
 import {Routes, Route} from 'react-router-dom' 
-
+import Maincomp from './components/home/Maincomp'
 
 function App() {
   return (
