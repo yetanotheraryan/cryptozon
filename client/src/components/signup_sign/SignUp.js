@@ -13,11 +13,20 @@ const SignUp = () => {
             <form>
               <h1>Sign In</h1>
               <div className="form_data">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">Name</label>
                 <input type="text" name="email" id="email" />
               </div>
               <div className="form_data">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">Email</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Atleast 6 Characters"
+                />
+              </div>
+              <div className="form_data">
+                <label htmlFor="password">Mobile </label>
                 <input
                   type="password"
                   name="password"
@@ -33,15 +42,7 @@ const SignUp = () => {
                   id="password"
                   placeholder="Atleast 6 Characters"
                 />
-              </div>
-              <div className="form_data">
-                <label htmlFor="password">Password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  placeholder="Atleast 6 Characters"
-                />
+                
               </div>
               <button className="signin_btn">Continue</button>
             </form>
