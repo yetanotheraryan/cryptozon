@@ -7,7 +7,7 @@ const Sign_in = () => {
       <section>
         <div className="sign_container">
           <div className="sign_header">
-            <img src="./cryptozon-logo.jpeg" alt="cryptozon logo" />
+            <img src="./CryptoZon-logo-black.jpeg" alt="cryptozon logo" />
           </div>
           <div className="sign_form">
             <form>
