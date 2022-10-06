@@ -42,14 +42,7 @@ const SignUp = () => {
                   id="password"
                   placeholder="Atleast 6 Characters"
                 />
-                <div className="form_data">
-                <label htmlFor="password">Password Again</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  placeholder="Atleast 6 Characters"
-                />
+                
               </div>
               <button className="signin_btn">Continue</button>
             </form>
